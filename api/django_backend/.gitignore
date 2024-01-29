@@ -1,0 +1,54 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+
+# Caches
+*.cache
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# Development/build files
+*.sqlite3
+*.pyc
+db.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# Local development settings
+local_settings.py
+
+# Media and static files (usually served from different sources in production)
+media/
+static/
+
+# Secret keys (keep these out of version control)
+*.secret_key
+
+# Ignore migration files if you're using South or Django >= 1.7
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Ignore pipenv or pip requirements
+*.pip
+*.pipenv
+*.lock
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+
+# Ignore any environment-specific files
+.env
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
